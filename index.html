@@ -226,8 +226,8 @@
 <div class="grid-bg" aria-hidden="true"></div>
 
 <div class="lang-toggle" role="group" aria-label="Language / Язык">
-  <button class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
-  <button class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+  <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+  <button class="lang-btn" data-lang="ru" aria-pressed="true">RU</button>
 </div>
 
 <main>
@@ -247,39 +247,41 @@
     <svg viewBox="0 0 1000 260" role="img">
       <!-- baseline -->
       <line x1="40" y1="210" x2="960" y2="210" class="path-dim" stroke-dasharray="4 6"/>
-      <!-- the wave path -->
+      <!-- the wave path: diaphragm → psoas → L5–S1 hinge → adductor → foot -->
       <path id="wavepath" class="wave"
         style="--len:1050"
-        d="M70,60 C150,60 175,95 210,95 C300,95 300,150 380,160 C470,171 500,205 600,205 C740,205 800,150 930,150"/>
+        d="M70,55 C170,55 180,100 270,100 C370,100 380,150 470,150 C570,150 590,185 680,185 C780,185 820,200 910,200"/>
       <!-- traveling bead -->
-      <circle class="bead flow-dot" r="6" style="--p:path('M70,60 C150,60 175,95 210,95 C300,95 300,150 380,160 C470,171 500,205 600,205 C740,205 800,150 930,150')"/>
+      <circle class="bead flow-dot" r="6" style="--p:path('M70,55 C170,55 180,100 270,100 C370,100 380,150 470,150 C570,150 590,185 680,185 C780,185 820,200 910,200')"/>
 
       <!-- nodes -->
       <g>
-        <circle cx="70" cy="60" r="5" fill="#63C2CE"/>
-        <text x="70" y="40" text-anchor="middle" class="node-val" data-i18n="schDiaVal">Diaphragm</text>
-        <text x="70" y="24" text-anchor="middle" class="node-label" data-i18n="schDiaLbl">01 · conductor</text>
+        <circle cx="70" cy="55" r="5" fill="#63C2CE"/>
+        <text x="70" y="36" text-anchor="middle" class="node-val" data-i18n="schDiaVal">Diaphragm</text>
+        <text x="70" y="20" text-anchor="middle" class="node-label" data-i18n="schDiaLbl">01 · conductor</text>
       </g>
       <g>
-        <circle cx="210" cy="95" r="5" fill="#63C2CE"/>
-        <text x="210" y="76" text-anchor="middle" class="node-val" data-i18n="schPsoVal">Psoas</text>
-        <text x="210" y="60" text-anchor="middle" class="node-label" data-i18n="schPsoLbl">02 · iliopsoas</text>
+        <circle cx="270" cy="100" r="5" fill="#63C2CE"/>
+        <text x="270" y="81" text-anchor="middle" class="node-val" data-i18n="schPsoVal">Psoas</text>
+        <text x="270" y="65" text-anchor="middle" class="node-label" data-i18n="schPsoLbl">02 · iliopsoas</text>
+      </g>
+      <!-- hinge / failure point: anatomically between psoas and adductor -->
+      <g>
+        <circle cx="470" cy="150" r="7" fill="none" stroke="#E56B4E" stroke-width="2"/>
+        <text x="470" y="131" text-anchor="middle" class="node-val" style="fill:#E56B4E" data-i18n="schL5Val">L5–S1</text>
+        <text x="470" y="115" text-anchor="middle" class="node-label" data-i18n="schL5Lbl">03 · hinge</text>
+        <line x1="470" y1="158" x2="470" y2="236" stroke="#E56B4E" stroke-width="1" stroke-dasharray="3 3"/>
+        <text x="470" y="250" text-anchor="middle" class="hinge-label" data-i18n="schHinge">✕ breaks here if the pelvis lags</text>
       </g>
       <g>
-        <circle cx="380" cy="160" r="5" fill="#E9A23B"/>
-        <text x="380" y="141" text-anchor="middle" class="node-val" data-i18n="schAddVal">Adductor</text>
-        <text x="380" y="125" text-anchor="middle" class="node-label" data-i18n="schAddLbl">03 · up</text>
-      </g>
-      <!-- hinge / failure point -->
-      <g>
-        <circle cx="600" cy="205" r="7" fill="none" stroke="#E56B4E" stroke-width="2"/>
-        <line x1="600" y1="212" x2="600" y2="244" stroke="#E56B4E" stroke-width="1"/>
-        <text x="600" y="258" text-anchor="middle" class="hinge-label" data-i18n="schHinge">✕ L5–S1 breaks here if pelvis lags</text>
+        <circle cx="680" cy="185" r="5" fill="#E9A23B"/>
+        <text x="680" y="166" text-anchor="middle" class="node-val" data-i18n="schAddVal">Adductor</text>
+        <text x="680" y="150" text-anchor="middle" class="node-label" data-i18n="schAddLbl">04 · up</text>
       </g>
       <g>
-        <circle cx="930" cy="150" r="5" fill="#E9A23B"/>
-        <text x="930" y="131" text-anchor="middle" class="node-val" data-i18n="schFootVal">Foot</text>
-        <text x="930" y="115" text-anchor="middle" class="node-label" data-i18n="schFootLbl">04 · ground</text>
+        <circle cx="910" cy="200" r="5" fill="#E9A23B"/>
+        <text x="910" y="181" text-anchor="middle" class="node-val" data-i18n="schFootVal">Foot</text>
+        <text x="910" y="165" text-anchor="middle" class="node-label" data-i18n="schFootLbl">05 · ground</text>
       </g>
     </svg>
   </div>
@@ -510,9 +512,10 @@
 
     schDiaVal:"Диафрагма", schDiaLbl:"01 · дирижёр",
     schPsoVal:"Псоас", schPsoLbl:"02 · подвздошная",
-    schAddVal:"Приводящая", schAddLbl:"03 · вверх",
-    schHinge:"✕ здесь ломается L5–S1, если таз отстаёт",
-    schFootVal:"Стопа", schFootLbl:"04 · опора",
+    schL5Val:"L5–S1", schL5Lbl:"03 · излом",
+    schHinge:"✕ ломается здесь, если таз отстаёт",
+    schAddVal:"Приводящая", schAddLbl:"04 · вверх",
+    schFootVal:"Стопа", schFootLbl:"05 · опора",
 
     s0h2:"Одна инструкция, сорок обличий",
     s0lead1:'Прочти голосовые подряд — и одна и та же поправка возвращается снова и снова: в прогибах, в бакасане, на мяче, на лестнице. Дело никогда не в самой асане. Дело в том, <em>где живёт работа.</em>',
@@ -619,8 +622,8 @@
   }
   document.querySelectorAll('.lang-btn').forEach(b=>
     b.addEventListener('click', ()=>apply(b.dataset.lang)));
-  let saved = 'en';
-  try{ saved = localStorage.getItem('yoga-lang') || 'en'; }catch(e){}
+  let saved = 'ru';
+  try{ saved = localStorage.getItem('yoga-lang') || 'ru'; }catch(e){}
   apply(saved);
 </script>
 </body>
