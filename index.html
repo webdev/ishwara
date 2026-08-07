@@ -221,7 +221,9 @@
     .figure svg .lbl,.figure svg .lbl-lead,.figure svg .hinge-label{display:none}
     .shape-row{grid-template-columns:1fr}
     .sec-head{flex-direction:column;gap:10px}
-    .hero{padding-top:76px}
+    /* hero text is bare (no inner box padding like the cards below), so give it
+       extra side padding to sit optically inset rather than flush to the edge */
+    .hero{padding-top:76px;padding-left:28px;padding-right:28px}
     .hero-sub{font-size:1.06rem}
     .lead{font-size:1.04rem}
     .card{padding:22px 20px}
