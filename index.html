@@ -103,6 +103,13 @@
   .scroll-cue{margin-top:38px;font-family:"IBM Plex Mono";font-size:.72rem;
     letter-spacing:.2em;color:var(--mute-2);text-transform:uppercase}
 
+  /* mobile-only curvy schematic — same wave & bead, portrait canvas so text stays legible */
+  .schematic-m{display:none;margin-top:28px}
+  .schematic-m svg{width:100%;max-width:360px;height:auto;display:block;margin:0 auto;overflow:visible}
+  .m-val{font-family:"Space Grotesk";font-size:17px;font-weight:600;fill:#E4EEEF}
+  .m-lbl{font-family:"IBM Plex Mono";font-size:12px;letter-spacing:.04em;fill:var(--mute)}
+  .m-warn{font-family:"IBM Plex Mono";font-size:12px;fill:var(--coral)}
+
   /* ---------- generic section ---------- */
   section{padding:76px 0}
   .sec-head{display:flex;gap:18px;align-items:baseline;margin-bottom:34px}
@@ -206,11 +213,31 @@
   .reveal.in{opacity:1;transform:none}
 
   @media(max-width:720px){
+    .wrap{padding:0 20px}
+    section{padding:56px 0}
     .map-grid{grid-template-columns:1fr;gap:28px}
-    .figure{max-width:320px;margin:0 auto}
+    .figure{max-width:260px;margin:0 auto}
+    /* side labels overflow at phone width — the .dx blocks below name them all */
+    .figure svg .lbl,.figure svg .lbl-lead,.figure svg .hinge-label{display:none}
     .shape-row{grid-template-columns:1fr}
     .sec-head{flex-direction:column;gap:10px}
-    .hero{padding-top:64px}
+    .hero{padding-top:76px}
+    .hero-sub{font-size:1.06rem}
+    .lead{font-size:1.04rem}
+    .card{padding:22px 20px}
+    /* swap the wide schematic SVG for the portrait curvy version */
+    .schematic{display:none}
+    .schematic-m{display:block}
+    /* prescription: drop the number gutter so text isn't crushed */
+    .steps li{grid-template-columns:1fr;gap:6px}
+    .steps li::before{content:"№ " counter(rx,decimal-leading-zero);position:static}
+    .rx-head{flex-direction:column;align-items:flex-start}
+    .rx-head .rx-meta{text-align:left}
+  }
+  /* keep the fixed toggle clear of the hero eyebrow on small screens */
+  @media(max-width:480px){
+    .lang-toggle{top:10px;right:10px}
+    .hero h1{font-size:clamp(2.1rem,10vw,3rem)}
   }
   @media(prefers-reduced-motion:reduce){
     *{animation:none!important;scroll-behavior:auto!important}
@@ -282,6 +309,49 @@
         <circle cx="910" cy="200" r="5" fill="#E9A23B"/>
         <text x="910" y="181" text-anchor="middle" class="node-val" data-i18n="schFootVal">Foot</text>
         <text x="910" y="165" text-anchor="middle" class="node-label" data-i18n="schFootLbl">05 · ground</text>
+      </g>
+    </svg>
+  </div>
+
+  <!-- mobile signature: the same curvy impulse chain, drawn top-to-bottom -->
+  <div class="schematic-m" aria-label="Schematic: the impulse travels top to bottom, diaphragm → psoas → L5–S1 hinge → adductor → foot.">
+    <svg viewBox="0 0 360 640" role="img">
+      <!-- serpentine wave path -->
+      <path class="wave" style="--len:1600"
+        d="M60,50 C60,115 300,120 300,185 C300,250 60,255 60,320 C60,385 300,390 300,455 C300,520 70,525 70,590"/>
+      <!-- traveling bead -->
+      <circle class="bead flow-dot" r="6" style="--p:path('M60,50 C60,115 300,120 300,185 C300,250 60,255 60,320 C60,385 300,390 300,455 C300,520 70,525 70,590')"/>
+
+      <!-- 01 diaphragm -->
+      <g>
+        <circle cx="60" cy="50" r="5" fill="#63C2CE"/>
+        <text x="80" y="46" class="m-lbl" data-i18n="schDiaLbl">01 · conductor</text>
+        <text x="80" y="64" class="m-val" data-i18n="schDiaVal">Diaphragm</text>
+      </g>
+      <!-- 02 psoas -->
+      <g>
+        <circle cx="300" cy="185" r="5" fill="#63C2CE"/>
+        <text x="282" y="181" text-anchor="end" class="m-lbl" data-i18n="schPsoLbl">02 · iliopsoas</text>
+        <text x="282" y="199" text-anchor="end" class="m-val" data-i18n="schPsoVal">Psoas</text>
+      </g>
+      <!-- 03 L5–S1 hinge (failure point) -->
+      <g>
+        <circle cx="60" cy="320" r="7" fill="none" stroke="#E56B4E" stroke-width="2"/>
+        <text x="80" y="311" class="m-lbl" data-i18n="schL5Lbl">03 · hinge</text>
+        <text x="80" y="329" class="m-val" style="fill:#E56B4E" data-i18n="schL5Val">L5–S1</text>
+        <text x="80" y="347" class="m-warn" data-i18n="schHinge">✕ breaks here if the pelvis lags</text>
+      </g>
+      <!-- 04 adductor -->
+      <g>
+        <circle cx="300" cy="455" r="5" fill="#E9A23B"/>
+        <text x="282" y="451" text-anchor="end" class="m-lbl" data-i18n="schAddLbl">04 · up</text>
+        <text x="282" y="469" text-anchor="end" class="m-val" data-i18n="schAddVal">Adductor</text>
+      </g>
+      <!-- 05 foot -->
+      <g>
+        <circle cx="70" cy="590" r="5" fill="#E9A23B"/>
+        <text x="90" y="586" class="m-lbl" data-i18n="schFootLbl">05 · ground</text>
+        <text x="90" y="604" class="m-val" data-i18n="schFootVal">Foot</text>
       </g>
     </svg>
   </div>
