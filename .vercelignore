@@ -1,0 +1,10 @@
+# Only index.html is needed to serve the site.
+# Keep private data and tooling out of the deployed bundle / CDN.
+chats/
+transcripts/
+*.py
+*.md
+*.png
+.venv/
+.playwright-mcp/
+.DS_Store
