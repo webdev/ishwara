@@ -1,0 +1,299 @@
+{
+"teachings": [
+{
+"topic": "philosophy",
+"asana": null,
+"principle_en": "There are two kinds of practitioners: 'strong' ones stretch whatever is tight and push through whatever hurts; 'smart' ones recognize that tightness and pain are symptoms, find the root cause, and eliminate it. Always be the smart one.",
+"principle_ru": "Людей я делю на две категории: сильные — они дальше растягивают то, что тянет, и раскрывают то, что болит. Умные понимают, что это следствие, ищут причину и причину устраняют. Будьте умными.",
+"why_en": "Pain and restriction are effects of a deeper misalignment — usually an inactive muscle or a mispositioned pelvis. Stretching the symptom does not correct the cause and often causes injury.",
+"mistake_en": "Treating the tight or painful structure (hamstrings, hip, lower back) as the problem and forcing it to change directly.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. О сильных и умных людях"
+]
+},
+{
+"topic": "practice-method",
+"asana": null,
+"principle_en": "The goal of practice is NOT to stretch muscles, ligaments, or tendons, and NOT to 'open' joints. The goal is to establish precise, coordinated, synchronized work of all parts of the body in any position in space.",
+"principle_ru": "Нет цели растягивать мышцы, связки или сухожилия, нет цели раскрывать суставы. Нужно просто отстроить согласованную работу различных частей тела друг с другом в любом положении тела в пространстве.",
+"why_en": "When all parts of the body work together correctly, the body naturally arrives at the correct position without force. Injuries occur when the wrong parts carry the load.",
+"mistake_en": "Measuring progress by how far you can stretch or how deep you can go in a pose.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. О методике",
+"Как создать целостность любого сустава. Анатолий Зенченко."
+]
+},
+{
+"topic": "practice-method",
+"asana": null,
+"principle_en": "There are 10 internal principles of body work, and they apply equally and identically to every single asana — standing, inverted, backbend, forward fold, arm balance. Learn these 10; forget trying to memorize hundreds of pose-specific rules.",
+"principle_ru": "В ишвара-йоге всего 10 внутренних принципов работы с телом. Они одинаково работают в любом положении тела в пространстве — в стойках на ногах, в перевёрнутых, в наклонах, в прогибах. Запомните 10 принципов, и они работают везде.",
+"why_en": "In a difficult asana you often forget even to breathe — you will never remember 387 pose-specific rules. Universal principles remain accessible under stress.",
+"mistake_en": "Trying to memorize pose-specific alignment cues for each asana separately instead of internalizing universal principles.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. О сильных и умных людях",
+"Ишвара йога. Анатолий Зенченко. О методике"
+]
+},
+{
+"topic": "philosophy",
+"asana": null,
+"principle_en": "Your body is always on your side. When you feel resistance or tightness, the body is not your enemy — it is protecting you. Do not fight the resistance; give the body the correct movement signal and the resistance will disappear.",
+"principle_ru": "Тело всегда за вас. Как бы ни было — тело за вас. Когда что-то не пускает, тело вас спасает, стабилизирует. Не воюйте с ним — задействуйте правильные мышцы, и оно вас отпустит.",
+"why_en": "The body activates stabilizer muscles (e.g., hamstrings) when it detects a loss of balance or an unfamiliar movement — because you have not signaled your intention through the correct muscles. Once the correct muscles engage, the protective reflex releases.",
+"mistake_en": "Interpreting muscular resistance as stubbornness or weakness that must be overcome with more force.",
+"source_titles": [
+"Монолог о теле. Анатолий Зенченко.",
+"О задней поверхности бедра. Анатолий Зенченко."
+]
+},
+{
+"topic": "anatomy",
+"asana": "forward fold",
+"principle_en": "The hamstrings (posterior thigh) are NOT what prevents a forward fold. They are acting as stabilizers because you have not engaged the muscles that actually create the fold — the iliopsoas. Engage the iliopsoas to tip the pelvis forward and the hamstrings will release automatically.",
+"principle_ru": "Задняя поверхность бедра — не причина того, что вы не можете наклониться. Она выполняет функцию стабилизатора, потому что тело думает, что вы падаете. Задействуйте подвздошно-поясничную мышцу — она опрокинет крыло таза вперёд — и задняя поверхность бедра вас отпустит.",
+"why_en": "Every muscle has three functions: mobilization, stabilization, and terminal stabilization. If the body does not receive the mobilization signal through the correct muscles, it defaults to stabilization to prevent you from falling.",
+"mistake_en": "Stretching or fighting the hamstrings; this is working on the symptom, not the cause.",
+"source_titles": [
+"О задней поверхности бедра. Анатолий Зенченко.",
+"Монолог о теле. Анатолий Зенченко.",
+"Асаны без боли. Анатолий Зенченко"
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "A muscle is a spring with fixed attachment points — it can contract, relax, and extend to its natural length. Any attempt to make it longer than designed destroys its function. A 'stretched' muscle is like a stretched rubber band: it cannot generate force and is non-functional.",
+"principle_ru": "Мышца — это пружина с чёткими точками крепления к костям. Она может сократиться, расслабиться и удлиниться до своего предела. Любая попытка сделать её длиннее этого предела — это как растянутая резинка: она уже не функциональна. Основная функция мышцы — сокращаться, а не растягиваться.",
+"why_en": "Muscle tissue is not elastic connective tissue. Overstretching disrupts the actin-myosin mechanism and the muscle can no longer produce force efficiently.",
+"mistake_en": "Believing that holding a 'stretch' in a muscle will create permanent lengthening that improves flexibility.",
+"source_titles": [
+"О задней поверхности бедра. Анатолий Зенченко."
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "The iliopsoas (large lumbar muscles) is the true mover of the torso in forward bends — not the back muscles, not the abs. It connects the rib cage to the legs. If it does not work, your rib cage movement is blocked and you lose sensation in your legs.",
+"principle_ru": "Большие поясничные (подвздошно-поясничные) мышцы — именно они двигают корпус, а не мышцы спины и не мышцы брюшного пресса. Они связывают грудную клетку с ногами. Если они не работают, движение грудной клетки заблокировано и ног вы не чувствуете.",
+"why_en": "The iliopsoas originates at the iliac crest wings, runs along the spine and attaches to the lesser trochanter of the femur — it literally bridges the torso and the legs and is responsible for anterior pelvic tilt (the fold).",
+"mistake_en": "Trying to create a forward fold by pulling with the back muscles or 'engaging the core' with abdominal bracing.",
+"source_titles": [
+"Ишвара-йога. Анатолий Зенченко. О больших поясничных мышцах.",
+"О задней поверхности бедра. Анатолий Зенченко."
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "The abdominal muscles are NOT antagonists to the back muscles — this is a widespread misconception. The true antagonist pair that controls the spine and pelvis is: iliopsoas (front, tilts pelvis forward) and gluteal muscles (back, tilts pelvis back). Train this pair, not the abs-vs-back model.",
+"principle_ru": "Мышцы брюшного пресса не являются антагонистами мышц спины — это распространённое заблуждение. Истинная пара антагонистов: большие поясничные (опрокидывают таз вперёд) и ягодичные мышцы (откидывают таз назад). Вот ключевая пара управления позвоночником.",
+"why_en": "The spine is controlled by deep muscles close to it, not the superficial abdominal wall. Working the wrong antagonist pair leaves the real movers underdeveloped.",
+"mistake_en": "Doing crunches or abdominal work to 'fix' lower back pain — abs cannot solve lumbar problems because they are not the real antagonists of the lumbar extensors.",
+"source_titles": [
+"Ишвара-йога. Анатолий Зенченко. О больших поясничных мышцах."
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "The true 'core' is the diaphragm and iliopsoas — the deep muscles at the center of the body. Abdominals (including the transverse) and glutes are NOT core muscles. You can hold plank positions indefinitely using only the true core, with abs and glutes completely relaxed.",
+"principle_ru": "Мышцы кора — это диафрагма и подвздошно-поясничные мышцы. Это не наружные мышцы. Мышцы брюшного пресса, включая поперечную, и ягодичные мышцы — это не мышцы кора. В вакуумном втягивании пресс расслаблен, ягодицы расслаблены — и я при этом делаю высокий и низкий упор.",
+"why_en": "Core means what determines spine position and movement from the inside — the deep postural muscles. Outer muscles are superficial movers; they exhaust quickly when used for postural stabilization.",
+"mistake_en": "Thinking planks, crunches, or glute bridges train the core; they train the periphery, not the structural center.",
+"source_titles": [
+"Мышцы кора. Анатолий Зенченко."
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "The diaphragm is the largest muscle in the body — larger than the glutes. In most people it is chronically compressed and stuck in a half-exhale state. Before any practice, consciously open and expand it on the first inhalation, and keep it in that open position throughout.",
+"principle_ru": "Диафрагма — самая большая мышца в вашем теле, не ягодичные. У большинства людей она сжата и находится в состоянии полу-выдоха. Перед практикой раскройте её первым вдохом — опустите вниз, раскройте в стороны — и удерживайте в этом раскрытом состоянии на протяжении всей практики.",
+"why_en": "A compressed diaphragm blocks both full breathing and free spinal movement. It is the gateway to all the other internal muscles functioning correctly.",
+"mistake_en": "Beginning pranayama or asana with a compressed diaphragm; not taking a dedicated opening breath before starting.",
+"source_titles": [
+"Ишвара-йога. Анатолий Зенченко. О больших поясничных мышцах.",
+"Ишвара йога. Анатолий Зенченко. Техника выполнения Капалабхати"
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "To create integrity in any joint, direct your attention to equally draw the two bones toward each other from all sides simultaneously — a small, equal muscle tone from inside, outside, front, and behind — regardless of whether the joint is straight, bent, or at an angle.",
+"principle_ru": "Чтобы собрать любой сустав, направьте внимание и задайте равномерный небольшой тонус всех мышц вокруг него одновременно — спереди, сзади, изнутри, снаружи — втягивая кости навстречу друг другу. Неважно, прямая нога или согнутая.",
+"why_en": "Equal tension from all sides is like balanced reins — the joint is stable, protected, and responds accurately. Any imbalance in that tension destabilizes the joint and reduces its range of safe motion.",
+"mistake_en": "Trying to 'open' or deepen joints; asymmetric engagement of joint muscles creates instability rather than freedom.",
+"source_titles": [
+"Как создать целостность любого сустава. Анатолий Зенченко."
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "About 50% of the body's muscles form a chain that connects downward to the ground, absorbing and transferring weight like springs. The other 50% form a chain that extends and lifts the body upward. Balance these two chains along the spine and every other body part — legs, arms, head — will automatically find correct alignment.",
+"principle_ru": "Около 50% нашей мускулатуры направлено на то, чтобы связаться с землёй — это пружины, через которые мы упираемся в пол. Ещё 50% выталкивают нас вверх и позволяют прогибаться. Сбалансируйте работу мышц вдоль позвоночника — и ногам, рукам и голове будет хорошо.",
+"why_en": "The spine is the central axis to which all internal organs and limbs attach. Balanced muscular tension along it creates the structural condition that everything else depends on.",
+"mistake_en": "Working individual muscles in isolation rather than engaging both chains as a coordinated whole.",
+"source_titles": [
+"Ишвара-йога. Анатолий Зенченко. О работе мускулатуры тела."
+]
+},
+{
+"topic": "bandhas",
+"asana": null,
+"principle_en": "Think of your entire body as one tube, assembled and sealed by the bandhas. The body is 70-80% water: when the tube is whole and integral, that water distributes evenly downward through the legs and arms into the ground, creating a stable, living structure. Bandhas are not something you do in certain poses — they are the permanent internal glue of the body.",
+"principle_ru": "Всё тело — это одна труба, склеенная и собранная бандхами. Тело на 70–80% состоит из воды: когда труба целостная, вода равномерно распределяется по нижней части и стекает в пол через ноги и руки. Бандхи — это не то, что вы делаете в отдельных позах; это постоянный внутренний клей тела.",
+"why_en": "A body that is not assembled as one unit has weak points where energy, structural support, and force transmission leak out. Integrity of the tube distributes load evenly across all surfaces.",
+"mistake_en": "Applying bandhas only in specific poses (e.g., inversions) or treating them as separate abdominal or pelvic floor contractions rather than a whole-body phenomenon.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. О целостности.",
+"Ишвара-йога. Анатолий Зенченко. О работе мускулатуры тела."
+]
+},
+{
+"topic": "practice-method",
+"asana": null,
+"principle_en": "Find the exact boundary of your current ability — where natural movement stops. Bring yourself to that boundary and then gently, gradually expand it from the inside. Never jump over your limits or try to break through them by force.",
+"principle_ru": "Определите точную границу своих возможностей — туда, где естественное движение прекращается. Подойдите к этой границе и плавно, изнутри раздвигайте её. Не перепрыгивайте через границу, не разламывайте её — плавно, плавно, плавно.",
+"why_en": "Forcing past the limit triggers the body's protective reflexes (stabilization, bracing) and leads to injury. Gradual expansion trains the nervous system to allow new ranges without triggering those reflexes.",
+"mistake_en": "Chasing the final pose seen in a photo or following sequences designed for someone else's body; treating intensity as a measure of progress.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. О сильных и умных людях"
+]
+},
+{
+"topic": "practice-method",
+"asana": null,
+"principle_en": "When natural movement ends, pause. Then — consciously, with attention — activate the specific muscles that will continue the movement. Do not tense to overcome resistance. Feel where the movement stopped and what needs to engage before taking the next step.",
+"principle_ru": "Естественное движение прекратилось — остановитесь. Теперь осознанно, вниманием, задействуйте конкретные мышцы, которые продолжат это движение. Не напрягайтесь, чтобы преодолеть сопротивление. Почувствуйте, где остановилось движение, что нужно включить — и только потом идите дальше.",
+"why_en": "Tensing to push past the limit activates the wrong (compensating) muscles and masks the movement problem rather than resolving it, creating patterns of dysfunction and eventual injury.",
+"mistake_en": "Immediately tensing to continue when movement stops — using brute force, trying to push through resistance.",
+"source_titles": [
+"Анатолий Зенченко - методика Ишвара Йога. Класс 1/ Часть 2",
+"Асаны без боли. Анатолий Зенченко"
+]
+},
+{
+"topic": "practice-method",
+"asana": null,
+"principle_en": "Regular asana practice performed correctly strongly develops the brain by forcing it to build new neural connections. Intelligence is not determined by brain size or cell count, but by the richness of connections between neurons — exactly as muscles grow when given a load they cannot yet handle.",
+"principle_ru": "Регулярная практика асан, выполненная правильным образом, очень сильно развивает мозг. Дело не в весе мозга и не в количестве клеток — дело в количестве связей между нейронами. Ставьте мозгу задачи, которые не решаются шаблоном, и он будет выстраивать новые связи — точно как мышца под нагрузкой.",
+"why_en": "Unusual proprioceptive demands of yoga (precise, unfamiliar movement patterns) are non-template challenges for the nervous system — they require new inter-neuronal pathways, which is how the brain develops.",
+"mistake_en": null,
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. О развитии мозга"
+]
+},
+{
+"topic": "philosophy",
+"asana": null,
+"principle_en": "You experience your body as something separate from 'you' — as an external object you pull and push around. Stop managing the body from outside with your hands and arms. Learn to initiate movement from the inside, through the muscles that are responsible for that movement.",
+"principle_ru": "Вы воспринимаете себя как фотографию на паспорте, а тело — как чужой объект, который вы тащите руками. Перестаньте управлять телом снаружи. Научитесь начинать движение изнутри — через те мышцы, которые за это движение отвечают.",
+"why_en": "The subconscious/body only recognizes genuine movement signals through the correct muscles. External pulling triggers protective stabilization rather than the intended movement.",
+"mistake_en": "Using hands or arms to pull yourself into a forward fold, twist, or any other pose — this is not movement, it is dragging an object.",
+"source_titles": [
+"Монолог о теле. Анатолий Зенченко."
+]
+},
+{
+"topic": "asana-technique",
+"asana": "Sirsasana/headstand",
+"principle_en": "In headstand, place the crown (the point 4 fingers above the hairline) at the CENTER of the triangle formed by your forearms, not at the apex. Put almost no weight into the head — most of the body's weight must rest in the elbows, forearms, and hands. After placing the head, push the shoulders to vertical before lifting anything else.",
+"principle_ru": "В стойке на голове ставьте темя (точка в 4 пальцах выше линии роста волос) в центр треугольника из предплечий, а не в вершину. Вес в голову почти не отдавайте — основная масса тела должна приходить в локти, предплечья и кисти. Поставив голову, сделайте одно важное движение: выставите плечи вертикально.",
+"why_en": "Vertical shoulders allow you to take the body's weight into the shoulder girdle instead of the cervical spine. If done correctly, you can lift your head off the floor while in the posture — the neck bears almost nothing.",
+"mistake_en": "The 'banana' shape — collapsed lumbar spine and kinked neck — which creates cervical and intracranial pressure problems and prevents progression to forearm stand or handstand.",
+"source_titles": [
+"Ширшасана. Стойка на голове. Анатолий Зенченко"
+]
+},
+{
+"topic": "asana-technique",
+"asana": "Sirsasana/headstand",
+"principle_en": "To enter headstand, first push the pelvis over the head with bent legs — forget about straightening the legs at first. Only extend the legs in the knees AFTER you can control the pelvis and lower back in that intermediate position. The legs must get tired more than anything else — that is the sign you are doing it correctly.",
+"principle_ru": "Для входа в стойку на голове сначала занесите таз над головой с согнутыми ногами — забудьте про ноги. Только после того, как вы контролируете таз и поясницу в этом положении, выпрямляйте ноги в коленях. Ноги должны уставать больше всего — это признак правильного выполнения.",
+"why_en": "Control of pelvic and lumbar position is the structural prerequisite for safe headstand. Kicking up with straight legs masks the absence of this control and loads the neck instead of the shoulder girdle.",
+"mistake_en": "Kicking up with straight legs before establishing pelvic control; legs not doing the work.",
+"source_titles": [
+"Ширшасана. Стойка на голове. Анатолий Зенченко"
+]
+},
+{
+"topic": "asana-technique",
+"asana": "Bakasana",
+"principle_en": "Set up crow pose with knees wider than shoulders. Weight starts in the LEGS, not the arms. Push the pelvis back and upward (as if pressing a wall behind you) with a relaxed spine — do not engage the back muscles. Transfer weight progressively into the hands while maintaining the straightest possible spine. If your legs tire in Bakasana, you are doing it correctly.",
+"principle_ru": "Поставьте руки, раскройте колени шире плеч. Вес — в ногах, не в руках. Толкайте таз назад-вверх, как будто назад стена, на расслабленной спине — не напрягая мышцы спины. Переносите вес с ног в руки, сохраняя позвоночник максимально прямым. Если в бакасане у вас устают ноги — вы всё делаете правильно.",
+"why_en": "The hip joint fold and compression is what holds Bakasana together; the legs drive and maintain that fold. Using the back muscles to hunch into the shape is a compensation that prevents real control.",
+"mistake_en": "Shifting all weight into the arms immediately and rounding the back to get the knees onto the arms; this removes the active work of the legs that stabilizes the pose.",
+"source_titles": [
+"Освоение бакасаны с Анатолием Зенченко."
+]
+},
+{
+"topic": "asana-technique",
+"asana": "Baddha Konasana/butterfly",
+"principle_en": "First establish a vertical pelvis (like a vertical bowl). For the forward fold, internally rotate the femurs — roll the thighs inward. This is the opposite of what most schools teach. Internal rotation is what allows the pelvis to tip forward so you can lay the torso onto the feet.",
+"principle_ru": "Сначала установите таз вертикально — как миска, поставленная вертикально. Для наклона вперёд разворачивайте бёдра вовнутрь. Большинство школ учат разворачивать наружу — это ошибка. Именно внутренний разворот бёдер позволяет опрокинуть таз вперёд и лечь корпусом.",
+"why_en": "External rotation of the femurs in this position locks the pelvis and prevents anterior tilt. Internal rotation frees the hip joint to allow the pelvis to pour forward into the fold.",
+"mistake_en": "Following the widespread instruction to 'rotate the hips and knees outward' in butterfly pose — this blocks the forward fold.",
+"source_titles": [
+"Техника выполнения баддха конасаны - позы бабочки. Ишвара йога. Анатолий Зенченко."
+]
+},
+{
+"topic": "asana-technique",
+"asana": "Hanumanasana/front split",
+"principle_en": "The main obstacle to the front split is almost never the hamstrings — it is the incorrect position of the pelvis. Correct the pelvic alignment first; until you do, no amount of work on the hamstrings will produce the split.",
+"principle_ru": "Главное препятствие для шпагата — почти никогда не задняя поверхность бедра. Это неправильное положение таза. Исправьте положение таза — и шпагат начнёт получаться. Пока таз не выставлен правильно, никакая работа с задней поверхностью бедра не поможет.",
+"why_en": "The pelvis is the root of the entire lower-body structure. A misaligned pelvis creates a chain of compensations that make full hip extension mechanically impossible regardless of hamstring length.",
+"mistake_en": "Spending all practice time stretching the hamstrings while ignoring pelvic position and psoas engagement.",
+"source_titles": [
+"Анатолий Зенченко - методика Ишвара Йога. Класс 1/ Часть 2"
+]
+},
+{
+"topic": "breath",
+"asana": "Kapalabhati",
+"principle_en": "Before starting Kapalabhati, take one full breath to open and expand the diaphragm and hold it in that open position throughout the practice. Position the head as if a crown were placed on it (slight chin retraction) so the airstream hits the upper palate and exits through the nose. The impulse for each exhale comes from the navel; the diaphragm does the mechanical work. Activation of the mula bandha area simultaneously with the navel is normal.",
+"principle_ru": "Перед капалабхати сделайте первый вдох, раскройте диафрагму и удерживайте её в раскрытом состоянии на протяжении всей практики. Положение головы — как будто вам на голову надели корону (лёгкий джаландхара). Посыл к выдоху берите от пупка, от центра живота. Если вместе с пупком срабатывает мула-бандха — это нормально.",
+"why_en": "The name Kapalabhati means 'skull-shining' — the head position directs the airstream to cleanse the cranial passages. A compressed diaphragm makes the practice impossible; it must stay open as the stable container for each exhale impulse.",
+"mistake_en": "Starting with a compressed diaphragm; initiating exhales from the chest; wrong head position that sends air straight out instead of hitting the upper palate.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. Техника выполнения Капалабхати"
+]
+},
+{
+"topic": "breath",
+"asana": "Ujjayi",
+"principle_en": "In Ujjayi, narrow the glottis on both inhalation and exhalation. This resistance forces your breathing muscles to work significantly harder, intensifies gas exchange in the lungs, and keeps the alveoli inflated and open rather than sticking together.",
+"principle_ru": "В уджайи сужайте голосовую щель и на вдохе, и на выдохе. Это создаёт сопротивление, которое заставляет дыхательные мышцы работать интенсивнее, усиливает газообмен в лёгких и не даёт альвеолам слипаться.",
+"why_en": "The added resistance during both phases of breathing creates negative and positive pressure fluctuations that mechanically expand the alveoli and train the respiratory musculature more effectively than unresisted breathing.",
+"mistake_en": "Breathing superficially or only constricting the glottis on one phase; treating Ujjayi as a sound technique rather than a resistance training technique for breathing muscles.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. Зависимость газообмена в легких от наличия жиров"
+]
+},
+{
+"topic": "breath",
+"asana": "Viloma pranayama",
+"principle_en": "Take a smooth, calm, long inhalation, then a brief pause. Then exhale in steps: exhale 2 seconds, pause 2 seconds, exhale 2 seconds, pause 2 seconds — continuing step by step until the breath is complete. The more steps you can create on one exhalation, the better.",
+"principle_ru": "Сделайте ровный, плавный, спокойный, длинный вдох — небольшая пауза. Затем выдох ступеньками: 2 секунды выдох, 2 секунды пауза, 2 секунды выдох, 2 секунды пауза — ступеньками вниз до конца выдоха. Чем больше ступенек на одном выдохе — тем лучше.",
+"why_en": "Stepped exhalation develops fine control of the expiratory muscles and extends exhalation capacity, which deepens the parasympathetic response and trains breath retention.",
+"mistake_en": "Rushing through the steps; making the initial inhalation too short; taking more than a brief pause before starting the exhalation phase.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. О Вилома-пранаяме"
+]
+},
+{
+"topic": "anatomy",
+"asana": null,
+"principle_en": "Quality dietary fats are essential for gas exchange in the lungs — not only as energy. When body fat drops too low, pulmonary gas exchange deteriorates significantly. When quality fats are present in adequate amounts, gas exchange improves. Do not restrict fats in your diet.",
+"principle_ru": "Качественные жиры необходимы для газообмена в лёгких — не только как источник энергии. Если количество жиров в организме падает, газообмен в лёгких ухудшается. Если жиры качественные и в достаточном количестве — газообмен улучшается. Не ограничивайте жиры в питании.",
+"why_en": "Pulmonary surfactant, which prevents alveolar collapse and regulates gas exchange, is primarily a phospholipid — it depends directly on the quality and availability of dietary fats.",
+"mistake_en": "Restricting dietary fat intake under the assumption that it benefits yoga practice or physical health.",
+"source_titles": [
+"Ишвара йога. Анатолий Зенченко. Зависимость газообмена в легких от наличия жиров"
+]
+}
+]
+}

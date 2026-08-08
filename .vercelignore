@@ -1,7 +1,8 @@
-# Only index.html is needed to serve the site.
+# Only index.html + companion.html are needed to serve the site.
 # Keep private data and tooling out of the deployed bundle / CDN.
 chats/
 transcripts/
+captions/
 *.py
 *.md
 *.png

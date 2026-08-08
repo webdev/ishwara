@@ -83,6 +83,17 @@
   .hero-sub{max-width:52ch;font-size:1.18rem;color:#B9CBCD;font-weight:300;margin-top:.6em}
   .hero-sub em{color:var(--breath);font-style:italic}
 
+  /* cross-link to the study companion (sibling page) */
+  .companion-link{display:inline-flex;align-items:center;gap:12px;margin-top:26px;
+    text-decoration:none;padding:12px 18px;border:1px solid var(--ink-3);border-radius:4px;
+    background:var(--ink-2);transition:border-color .25s,transform .25s;max-width:100%}
+  .companion-link:hover{border-color:var(--amber);transform:translateX(3px)}
+  .companion-link .cl-arrow{font-family:"IBM Plex Mono";color:var(--amber);font-size:1.1rem;flex:none}
+  .companion-link .cl-txt{display:flex;flex-direction:column;line-height:1.3}
+  .companion-link .cl-k{font-family:"IBM Plex Mono";font-size:.66rem;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--mute)}
+  .companion-link .cl-v{font-family:"Space Grotesk";font-weight:600;color:#EFF5F5;font-size:1.02rem}
+
   /* schematic (hero signature) */
   .schematic{margin-top:44px;width:100%}
   .schematic svg{width:100%;height:auto;display:block;overflow:visible}
@@ -270,6 +281,14 @@
 
   <h1 data-i18n="heroH1">The impulse starts<br>at the <span class="flow">diaphragm</span><br>and goes to the <span class="leg">legs</span>.</h1>
   <p class="hero-sub" data-i18n="heroSub">Everything Anatoly has been telling you, across four months of lessons, is one instruction wearing forty disguises: <em>stop holding yourself up with your back. Move the foundation down into your legs — and the right side can finally let go.</em></p>
+
+  <a class="companion-link" href="companion.html">
+    <span class="cl-arrow">↗</span>
+    <span class="cl-txt">
+      <span class="cl-k" data-i18n="clK">Also · the full method</span>
+      <span class="cl-v" data-i18n="clV">The study companion — 219 teachings from 145 videos</span>
+    </span>
+  </a>
 
   <!-- SIGNATURE: the impulse pathway -->
   <div class="schematic" aria-label="Schematic: the impulse travels from diaphragm through the psoas into the leg; the low back is where it breaks if the pelvis lags.">
@@ -580,6 +599,8 @@
     heroSig:"135 голосовых → одна идея · апр–авг 2026",
     heroH1:'Импульс рождается<br>в <span class="flow">диафрагме</span><br>и уходит в <span class="leg">ноги</span>.',
     heroSub:'Всё, что Анатолий повторял тебе четыре месяца, — это одна инструкция в сорока обличьях: <em>перестань держать себя спиной. Перенеси опору вниз, в ноги — и правая сторона наконец сможет отпустить.</em>',
+    clK:"Ещё · весь метод",
+    clV:"Учебный компаньон — 219 наставлений из 145 видео",
     scrollCue:"↓ к механике",
 
     schDiaVal:"Диафрагма", schDiaLbl:"01 · дирижёр",
