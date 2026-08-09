@@ -283,7 +283,51 @@ CONCEPT_METHOD = '''<svg viewBox="0 0 560 240" role="img" class="concept" aria-l
   </g>
 </svg>'''
 
+# the founding refusals, drawn: yoga serves you / body→state / comfort from within
+CONCEPT_PHILOSOPHY = '''<svg viewBox="0 0 640 175" role="img" class="concept" aria-label="Diagram: yoga serves you (energy flows into the practitioner), the body is the instrument and the state is the goal, and comfort expands outward from within.">
+  <!-- panel 1: yoga serves you -->
+  <g>
+    <text x="100" y="24" class="c-cap" text-anchor="middle" data-i18n="dgm_p1">yoga serves you</text>
+    <circle class="c-node" cx="100" cy="66" r="11"/>
+    <line class="c-bone" x1="100" y1="77" x2="100" y2="120"/>
+    <line class="c-bone" x1="100" y1="90" x2="80" y2="110"/>
+    <line class="c-bone" x1="100" y1="90" x2="120" y2="110"/>
+    <line class="c-bone" x1="100" y1="120" x2="86" y2="152"/>
+    <line class="c-bone" x1="100" y1="120" x2="114" y2="152"/>
+    <path class="c-flow" d="M34 74 Q66 80 84 96"/>
+    <path class="c-arrow" d="M74 88 L86 96 L74 100"/>
+    <path class="c-flow" d="M166 74 Q134 80 116 96"/>
+    <path class="c-arrow" d="M126 88 L114 96 L126 100"/>
+  </g>
+  <!-- panel 2: body is the instrument, the state is the goal -->
+  <g transform="translate(220 0)">
+    <text x="100" y="24" class="c-cap" text-anchor="middle" data-i18n="dgm_p2">body → state</text>
+    <circle class="c-bone" cx="46" cy="66" r="10" fill="none"/>
+    <line class="c-bone" x1="46" y1="76" x2="46" y2="116"/>
+    <line class="c-bone" x1="46" y1="88" x2="30" y2="104"/>
+    <line class="c-bone" x1="46" y1="88" x2="62" y2="104"/>
+    <line class="c-bone" x1="46" y1="116" x2="34" y2="150"/>
+    <line class="c-bone" x1="46" y1="116" x2="58" y2="150"/>
+    <path class="c-arrow-big" d="M86 100 h34 m-10 -8 l10 8 l-10 8"/>
+    <circle class="c-flow" cx="168" cy="100" r="30" opacity=".35"/>
+    <circle class="c-flow" cx="168" cy="100" r="19" opacity=".6"/>
+    <circle class="c-node" cx="168" cy="100" r="7"/>
+  </g>
+  <!-- panel 3: comfort expands from within -->
+  <g transform="translate(430 0)">
+    <text x="100" y="24" class="c-cap" text-anchor="middle" data-i18n="dgm_p3">expand from within</text>
+    <circle class="c-node" cx="100" cy="100" r="6"/>
+    <circle class="c-flow" cx="100" cy="100" r="24" opacity=".7"/>
+    <circle class="c-flow" cx="100" cy="100" r="42" opacity=".3" stroke-dasharray="3 6"/>
+    <path class="c-arrow" d="M100 100 L128 72 M120 74 L130 70 L128 80"/>
+    <path class="c-arrow" d="M100 100 L72 72 M80 74 L70 70 L72 80"/>
+    <path class="c-arrow" d="M100 100 L128 128 M120 126 L130 130 L128 120"/>
+    <path class="c-arrow" d="M100 100 L72 128 M80 126 L70 130 L72 120"/>
+  </g>
+</svg>'''
+
 CONCEPT = {
+ "phil": CONCEPT_PHILOSOPHY,
  "anat": CONCEPT_ANATOMY,
  "breath": CONCEPT_BANDHA,
  "method": CONCEPT_METHOD,

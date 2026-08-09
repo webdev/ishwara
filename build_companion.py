@@ -152,7 +152,7 @@ sec_phil = section("01", "phil", "First principles",
     "С чего всё начинается",
     "Before any pose, a handful of refusals — the ground everything stands on: yoga is for you, not the reverse; the body is the instrument, the state is the goal.",
     "Ещё до любой асаны — несколько отказов, фундамент всего: йога для вас, а не вы для йоги; тело — инструмент, а цель — состояние.",
-    topic_cards({"philosophy"}))
+    topic_cards({"philosophy"}), diagram=G.CONCEPT["phil"])
 
 sec_anat = section("02", "anat", "The logic of the body",
     "Логика тела",
@@ -230,6 +230,7 @@ RU.update({
   "s0thesis":'Не тяни. Не «раскрывай». <b>Балансируй</b> — и тело <s>перестанет защищаться</s> откроется само.',
   "s0lead2":'219 наставлений ниже — расшифровка канала Анатолия: основы и логика тела, метод практики, дыхание и бандхи, и библиотека техник по каждой асане. Переключай язык кнопкой вверху справа.',
   # concept diagram captions
+  "dgm_p1":"йога служит вам","dgm_p2":"тело → состояние","dgm_p3":"расширяйся изнутри",
   "dgm_a1":"сокращение, а не растяжение","dgm_a2":"сустав держится тонусом","dgm_a3":"всё движется цепочками",
   "dgm_b1":"Джаландхара · горло","dgm_bd":"диафрагма · дирижёр","dgm_b2":"Уддияна · пупок","dgm_b3":"Мула · тазовое дно",
   "dgm_m1":"уравновесь две цепочки — 50 / 50","dgm_m2":"трапеция → квадрат (нутация)",
@@ -359,21 +360,32 @@ HTML = f'''<!DOCTYPE html>
   /* teaching cards */
   .tgrid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1px;
     background:var(--ink-3);border:1px solid var(--ink-3);border-radius:4px;overflow:hidden}}
-  .tcard{{background:var(--ink-2);padding:20px 20px 16px;display:flex;flex-direction:column;gap:12px}}
-  .tc-top{{display:flex;align-items:center;gap:12px}}
-  .tc-top .glyph{{width:38px;height:38px;flex:none}}
+  .tcard{{background:var(--ink-2);padding:20px 20px 16px;display:flex;flex-direction:column;gap:12px;
+    position:relative;transition:background .2s}}
+  .tcard::after{{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:transparent;transition:background .2s}}
+  .tcard:hover{{background:#102C35}}
+  .tcard:hover.tcard::after,.tcard:hover::after{{background:var(--breath)}}
+  .tc-top{{display:flex;align-items:center;gap:13px}}
+  .tc-top .glyph{{width:34px;height:34px;flex:none;padding:9px;border-radius:50%;
+    background:rgba(99,194,206,.09);border:1px solid var(--ink-3);box-sizing:content-box}}
+  .tc-top .tg-amber{{background:rgba(233,162,59,.1)}} .tc-top .tg-coral{{background:rgba(229,107,78,.1)}}
   .badge{{font-family:"IBM Plex Mono";font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;
     padding:3px 8px;border-radius:2px;border:1px solid currentColor}}
   .b-breath{{color:var(--breath)}} .b-amber{{color:var(--amber)}} .b-coral{{color:var(--coral)}}
   .t-principle{{font-family:"Space Grotesk";font-size:1.08rem;font-weight:500;line-height:1.36;color:#EFF5F5;letter-spacing:-.005em}}
-  .t-more{{margin-top:auto}}
+  .t-more{{margin-top:auto;padding-top:14px}}
   .t-more summary{{list-style:none;cursor:pointer;font-family:"IBM Plex Mono";font-size:.66rem;letter-spacing:.14em;
-    text-transform:uppercase;color:var(--mute);padding-top:10px;border-top:1px dashed var(--ink-3);
-    display:flex;align-items:center;gap:6px;transition:color .2s}}
+    text-transform:uppercase;color:var(--breath);
+    display:inline-flex;align-items:center;gap:7px;transition:all .2s;
+    padding:6px 12px 6px 8px;border:1px solid rgba(99,194,206,.35);border-radius:999px;
+    background:rgba(99,194,206,.07)}}
   .t-more summary::-webkit-details-marker{{display:none}}
-  .t-more summary::before{{content:"+";color:var(--amber);font-weight:600}}
+  .t-more summary::before{{content:"+";display:inline-flex;align-items:center;justify-content:center;
+    width:16px;height:16px;border-radius:50%;background:var(--amber);color:var(--ink);
+    font-weight:700;font-size:.8rem;line-height:1}}
   .t-more[open] summary::before{{content:"–"}}
-  .t-more summary:hover{{color:#DCE7E8}}
+  .t-more summary:hover{{color:#EFF5F5;border-color:var(--breath);background:rgba(99,194,206,.16)}}
+  .t-more[open] summary{{color:var(--mute);border-color:var(--ink-3);background:transparent}}
   .t-more .s-close{{display:none}} .t-more[open] .s-open{{display:none}} .t-more[open] .s-close{{display:inline}}
   .t-detail{{padding-top:12px;display:flex;flex-direction:column;gap:10px;
     animation:fade .35s ease}}
